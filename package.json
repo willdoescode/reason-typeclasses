@@ -1,0 +1,19 @@
+{
+  "name": "reason-server",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "watch:start": "yarn nodemon src/Main.bs.js"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
